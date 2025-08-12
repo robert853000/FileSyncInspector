@@ -1,10 +1,10 @@
-\# FileSyncInspector
-
-!\[Screenshot1](https://github.com/robert853000/FileSyncInspector/blob/main/screenshot1.png "Screenshot1")
+# FileSyncInspector
 
 
+![Screenshot1](https://raw.githubusercontent.com/robert853000/FileSyncInspector/master/screenshot1.png "Screenshot1")
 
-\## Popis projektu
+
+# Popis projektu
 
 
 
@@ -22,33 +22,17 @@ Aplikace zkontroluje nejen pøítomnost všech souborù a složek, ale také bitovou s
 
 
 
-\## Proè FileSyncInspector?
+# Proè FileSyncInspector?
 
 
 
-\- Rychlá kontrola kompletnosti a integrity dat po kopírování  
+- Rychlá kontrola kompletnosti a integrity dat po kopírování  
 
-\- Pomoc pøi odhalování chyb pøi pøenosu souborù, zejména u vìtších objemù dat  
+- Pomoc pøi odhalování chyb pøi pøenosu souborù, zejména u vìtších objemù dat  
 
-\- Uživatelsky pøívìtivé zobrazení rozdílù jak v textové podobì, tak ve stromové struktuøe  
+- Uživatelsky pøívìtivé zobrazení rozdílù jak v textové podobì, tak ve stromové struktuøe  
 
-\- Užiteèné kohokoliv, kdo potøebuje mít jistotu, že data byla zkopírována správnì  
-
-
-
----
-
-
-
-\## Typické scénáøe použití
-
-
-
-\- Ovìøení integrity záloh dùležitých dokumentù èi projektù  
-
-\- Detekce poškozených nebo zmìnìných souborù na diskových oddílech s podezøením na selhání disku  
-
-\- Porovnání dvou verzí složek, zda jsou identické  
+- Užiteèné kohokoliv, kdo potøebuje mít jistotu, že data byla zkopírována správnì  
 
 
 
@@ -56,17 +40,33 @@ Aplikace zkontroluje nejen pøítomnost všech souborù a složek, ale také bitovou s
 
 
 
-\## Funkce
+# Typické scénáøe použití
 
 
 
-\- Porovnání souborù a složek vèetnì rekurze do podsložek  
+- Ovìøení integrity záloh dùležitých dokumentù èi projektù  
 
-\- Barevné oznaèení chybìjících (èervená), pøidaných (zelená) a modifikovaných (oranžová) položek  
+- Detekce poškozených nebo zmìnìných souborù na diskových oddílech s podezøením na selhání disku  
 
-\- Pøepínání mezi textovým a stromovým zobrazením výsledkù  
+- Porovnání dvou verzí složek, zda jsou identické  
 
-\- Detailní bitové porovnání obsahu souborù  
+
+
+---
+
+
+
+# Funkce
+
+
+
+- Porovnání souborù a složek vèetnì rekurze do podsložek  
+
+- Barevné oznaèení chybìjících (èervená), pøidaných (zelená) a modifikovaných (oranžová) položek  
+
+- Pøepínání mezi textovým a stromovým zobrazením výsledkù  
+
+s- Detailní bitové porovnání obsahu souborù  
 
 
 
