@@ -1,8 +1,6 @@
 \# FileSyncInspector
 
-
-
-!\[Screenshot](screenshot1.png)
+!\[Screenshot1](https://github.com/robert853000/FileSyncInspector/blob/main/screenshot1.png "Screenshot1")
 
 
 
