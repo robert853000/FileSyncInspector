@@ -1,0 +1,5 @@
+C:\Users\redfo\source\repos\FileSyncInspector\FileSyncInspector\bin\Release\net8.0-windows\publish\FileSyncInspector.exe
+C:\Users\redfo\source\repos\FileSyncInspector\FileSyncInspector\bin\Release\net8.0-windows\publish\FileSyncInspector.dll
+C:\Users\redfo\source\repos\FileSyncInspector\FileSyncInspector\bin\Release\net8.0-windows\publish\FileSyncInspector.deps.json
+C:\Users\redfo\source\repos\FileSyncInspector\FileSyncInspector\bin\Release\net8.0-windows\publish\FileSyncInspector.runtimeconfig.json
+C:\Users\redfo\source\repos\FileSyncInspector\FileSyncInspector\bin\Release\net8.0-windows\publish\FileSyncInspector.pdb

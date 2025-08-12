@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|c:\\users\\redfo\\source\\repos\\filesyncinspector\\filesyncinspector\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|solutionrelative:filesyncinspector\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|c:\\users\\redfo\\source\\repos\\filesyncinspector\\filesyncinspector\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|solutionrelative:filesyncinspector\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|c:\\users\\redfo\\source\\repos\\filesyncinspector\\filesyncinspector\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|solutionrelative:filesyncinspector\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|c:\\users\\redfo\\source\\repos\\filesyncinspector\\filesyncinspector\\filesystemitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|solutionrelative:filesyncinspector\\filesystemitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|c:\\users\\redfo\\source\\repos\\filesyncinspector\\filesyncinspector\\filesyncinspector.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|solutionrelative:filesyncinspector\\filesyncinspector.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|c:\\users\\redfo\\source\\repos\\filesyncinspector\\filesyncinspector\\filesyncinspector.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{18E4F702-ADF0-4F81-99A3-C0E23D3ECD7E}|FileSyncInspector\\FileSyncInspector.csproj|solutionrelative:filesyncinspector\\filesyncinspector.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileSystemItem.cs",
+              "DocumentMoniker": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\FileSystemItem.cs",
+              "RelativeDocumentMoniker": "FileSyncInspector\\FileSystemItem.cs",
+              "ToolTip": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\FileSystemItem.cs",
+              "RelativeToolTip": "FileSyncInspector\\FileSystemItem.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:42:47.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "FileSyncInspector\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\AssemblyInfo.cs",
+              "RelativeToolTip": "FileSyncInspector\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:25:10.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FileSyncInspector\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FileSyncInspector\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAlwEsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T22:08:15.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FileSyncInspector\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\MainWindow.xaml",
+              "RelativeToolTip": "FileSyncInspector\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T22:08:20.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileSyncInspector.csproj",
+              "DocumentMoniker": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\FileSyncInspector.csproj",
+              "RelativeDocumentMoniker": "FileSyncInspector\\FileSyncInspector.csproj",
+              "ToolTip": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\FileSyncInspector.csproj",
+              "RelativeToolTip": "FileSyncInspector\\FileSyncInspector.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-11T22:36:04.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileSyncInspector",
+              "DocumentMoniker": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\FileSyncInspector.csproj",
+              "RelativeDocumentMoniker": "FileSyncInspector\\FileSyncInspector.csproj",
+              "ToolTip": "C:\\Users\\redfo\\source\\repos\\FileSyncInspector\\FileSyncInspector\\FileSyncInspector.csproj",
+              "RelativeToolTip": "FileSyncInspector\\FileSyncInspector.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-11T22:19:40.758Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+﻿<Window x:Class="FileSyncInspector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileSyncInspector"
+        mc:Ignorable="d"
+         Height="450" Width="800" Title="FileSyncInspector - Porovnání složek">
+    <Grid Margin="10" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Výběr složek -->
+            <RowDefinition Height="Auto"/>
+            <!-- Ovládací tlačítka + ProgressBar -->
+            <RowDefinition Height="auto"/>
+            <!-- Výsledky TreeView -->
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Výběr složek -->
+        <Grid Grid.Row="0" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Zdrojová složka -->
+            <StackPanel Grid.Column="0" Margin="0,0,10,0">
+                <TextBlock Text="Zdrojová složka:" FontWeight="Bold" Margin="0,0,0,5"/>
+                <DockPanel>
+                    <TextBox Name="TextBoxSourceFolder" IsReadOnly="True" VerticalAlignment="Center" />
+                    <Button Name="ButtonBrowseSource" Content="Vybrat složku" Margin="5,0,0,0" Click="ButtonBrowseSource_Click" />
+                </DockPanel>
+            </StackPanel>
+
+            <!-- Cílová složka -->
+            <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                <TextBlock Text="Cílová složka:" FontWeight="Bold" Margin="0,0,0,5"/>
+                <DockPanel>
+                    <TextBox Name="TextBoxTargetFolder" IsReadOnly="True" VerticalAlignment="Center" />
+                    <Button Name="ButtonBrowseTarget" Content="Vybrat složku" Margin="5,0,0,0" Click="ButtonBrowseTarget_Click" />
+                </DockPanel>
+            </StackPanel>
+        </Grid>
+
+        <!-- Ovládací tlačítka a ProgressBar -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,10" >
+            <Button Name="ButtonStart" Content="Spustit porovnání" Width="130" Margin="0,0,10,0" Click="ButtonStart_Click" IsEnabled="False" />
+            <Button Name="ButtonCancel" Content="Zrušit" Width="80" Click="ButtonCancel_Click" IsEnabled="False" />
+            <ProgressBar Name="ProgressBarComparison" Width="200" Height="20" Margin="20,0,0,0" />
+            <Button Content="Přepnout zobrazení"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Margin="5"
+            Click="ToggleView_Click"/>
+        </StackPanel>
+
+        <!-- Výsledky porovnání - dvě TreeView vedle sebe -->
+        <Grid Grid.Row="2" x:Name="TextOutputPanel">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <GroupBox Header="Zdrojová složka" Grid.Column="0" Margin="0,0,10,0">
+                <TextBox Name="TextBoxSourceOutput" 
+IsReadOnly="True" 
+AcceptsReturn="True" 
+VerticalScrollBarVisibility="Auto" 
+HorizontalScrollBarVisibility="Auto"
+Margin="10,0,-2,0"
+TextWrapping="Wrap" Height="299" 
+                        Text=""/>
+            </GroupBox>
+
+            <GroupBox Header="Cílová složka" Grid.Column="1" Margin="10,0,0,0">
+
+            <TextBox Name="TextBoxTargetOutput" 
+         IsReadOnly="True" 
+         AcceptsReturn="True" 
+         VerticalScrollBarVisibility="Auto" 
+         HorizontalScrollBarVisibility="Auto"
+         Margin="5"
+         TextWrapping="Wrap" TextChanged="TextBoxTargetOutput_TextChanged" Text=""/>
+              
+            </GroupBox>
+
+        </Grid>
+
+        <!-- TreeView -->
+        <Grid x:Name="TreeViewPanel" Grid.Row="3" Margin="0,10,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <GroupBox Header="Strom zdrojové složky" Grid.Column="0" Margin="0,0,10,0">
+                <TreeView Name="TreeViewSourceOutput" Margin="10" />
+            </GroupBox>
+
+            <GroupBox Header="Strom cílové složky" Grid.Column="1" Margin="10,0,0,0">
+                <TreeView Name="TreeViewTargetOutput" Margin="10" />
+            </GroupBox>
+        </Grid>
+    </Grid>
+</Window>
