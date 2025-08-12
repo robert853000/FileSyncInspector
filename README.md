@@ -2,7 +2,7 @@
 
 
 
-!\[Screenshot](screenshot1.jpg)
+!\[Screenshot](screenshot1.png)
 
 
 
